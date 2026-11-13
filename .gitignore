@@ -1,0 +1,21 @@
+# Local environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+secrets/
+
+# Raw and generated data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Generated artifacts
+models/artifacts/
+report/figures/
